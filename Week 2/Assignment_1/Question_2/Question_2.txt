@@ -1,0 +1,6 @@
+2.Explain the purpose of comments in HTML and 
+provide an example of how to use comments in an 
+HTML document.
+•	Comments are useful when we want to write something about the code, but we do not want to run that or show it in the output. 
+•	Comments are basically for humans; we write comments for our future selves or for other developers who might work on the same codebase.
+•	Comments are not displayed in the web browser when you view the web page. They are only visible when you inspect the page's HTML source code

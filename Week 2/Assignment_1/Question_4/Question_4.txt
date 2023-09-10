@@ -1,0 +1,19 @@
+4. Write a short note on Tag and element with an example.
+Both tag and element are fundamental concepts used to structure and define the content of a web page.
+HTML tag:
+•	An HTML tag is composed of an opening tag and in some cases a closing tag. 
+•	The opening tag starts with the less-than symbol (<). followed by the tag name, and ends with a greater-than symbol (>). 
+•	The closing tag is similar but includes a forward slash (/) before the tag name.
+
+There are 2 types of tags in HTML:
+1. Paired or container tags
+Paired tags have both an opening and a closing tag and can contain other HTML elements and text within them.
+Ex: <html></html>, <h1></h1> etc
+
+2. Singular tags
+In HTML, some are self-closing tags or void tags because they don't require a separate closing tag.
+Ex:<br/>, <img/> etc 
+
+HTML element:
+An HTML element consists of an opening tag, content (which is the actual text or other elements), and a closing tag (in most cases).
+Ex: <h1>This is a heading element</h1>
