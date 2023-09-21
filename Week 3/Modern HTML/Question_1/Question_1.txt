@@ -1,0 +1,21 @@
+Q. List out the features of HTML 5
+•	Improved Multimedia Support
+HTML 5 allows for integrating multimedia elements such as <audio> and <video> directly into the web pages without the need for plugins like Flash.
+
+•	Canvas element
+HTML 5 introduced the <canvas> element, allowing dynamic, interactive graphics to be created and manipulated within a web page.
+
+•	Geolocation API
+Geolocation API is an API for obtaining the user’s location, enabling web applications to offer location-based services.
+
+•	Local Storage
+HTML 5 introduced the localStorage API, which allows for the storage of data on the user’s device, improving performance and reducing the need for round-trips to the user.
+
+•	New Structural Elements
+HTML 5 introduced new semantic elements such as <header>,<footer>,<nav> and <article>, etc. that make it easier to structure and organise content on the web page.
+
+•	Form improvements
+HTML 5 introduced several improvements to forma, including new input types like date, time and colour as well as new attributes such as required and autofocus.
+
+•	Accessibility improvements
+HTML5 provides better support for accessibility, including the ability to provide alternative text for images and improved support for screen readers/
