@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question_5a</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b7d0da;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #354c64;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            background-color: #f4f4f6;
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(17, 17, 17, 0.1);
+        
+        }
+
+        h2 {
+            color: #143961;
+            font-size: 24px;
+            margin: 0 0 20px;
+        }
+
+        form {
+            display: grid;
+            gap: 10px;
+        }
+
+        label {
+            color:#143961;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            font-size: 16px;
+        }
+
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .checkbox-label {
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Signup Form</h1>
+    </header>
+
+    <section id="signup-section">
+        <h2>Signup</h2>
+        <form id="signup-form">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required minlength="2" maxlength="30" title="Please enter your first name (2-30 characters)">
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required minlength="2" maxlength="30" title="Please enter your last name (2-30 characters)">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" minlength="3" name="email" required title="Please enter a valid email address">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required minlength="8" title="Password must be at least 8 characters">
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required minlength="8" title="Please confirm your password">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required min="18" max="150" title="Please enter your age (18-150)">
+
+            <label>Gender:</label>
+            <div class="radio-label">
+                <input type="radio" id="male" name="gender" value="male"> <label for="male">Male</label>
+            </div>
+            <div class="radio-label">
+                <input type="radio" id="female" name="gender" value="female"> <label for="female">Female</label>
+            </div>
+
+            <div class="checkbox-label">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to the terms and conditions</label>
+            </div>
+
+            <input type="submit" value="Signup">
+        </form>
+    </section>
+</body>
+</html>

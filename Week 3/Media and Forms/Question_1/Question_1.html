@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question_1</title>
+    <style>
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+        }
+
+        .image-item {
+            margin: 10px;
+        }
+
+        .image-item img {
+            transition: transform 0.2s;
+            cursor: pointer;
+        }
+
+        .image-item img:hover {
+            transform: scale(1.1);
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Image Gallery</h1>
+    </header>
+    <div class="image-gallery">
+        <div class="image-item">
+            <img src="image_1.jpg" alt="Image 1" height="200px" width="400px">
+        </div>
+        <div class="image-item">
+            <img src="image_2.jpg" alt="Image 2" height="200px" width="400px">
+        </div>
+        <div class="image-item">
+            <img src="image_3.jpg" alt="Image 3" height="200px" width="400px">
+        </div> 
+        <div class="image-item">
+            <img src="image_4.jpg" alt="Image 4" height="200px" width="400px">
+        </div> 
+        <div class="image-item">
+            <img src="image_5.jpg" alt="Image 5" height="200px" width="400px">
+        </div> 
+        <div class="image-item">
+            <img src="image_6.jpg" alt="Image 6" height="200px" width="400px">
+        </div> 
+    </div>
+    <footer>
+        <p>&copy; 2023 Image Gallery</p>
+    </footer>
+</body>
+</html>
