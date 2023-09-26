@@ -1,0 +1,7 @@
+Explaination of BEM naming:
+1. Block:
+    "division" is the main container,which consists of 3 paragraph tags.
+2. Element:
+    "paragraph__intro" & "paragraph__aside" are the elements which are present inside the "division" block
+3. Modifier:
+    "paragraph__main--highlighted" is a modifier applied to the "paragraph__main" element to make it highlighted or bold.
