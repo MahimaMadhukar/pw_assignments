@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: rgb(78, 135, 208);
+}
+
+ul {
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   justify-content: space-around;
+}
+
+li{
+    margin: 0;
+    padding: 20px;
+}
+a{
+    color: aliceblue;
+}
+a:hover{
+    color: red;
+    font-size: large;
+}

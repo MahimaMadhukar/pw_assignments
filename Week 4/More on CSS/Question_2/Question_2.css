@@ -1,0 +1,16 @@
+body{
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+}
+div {
+    background-color: rgb(229, 199, 30);
+    padding: 20px;
+    border-radius: 10px;
+}
+span{
+    font-weight: bold;
+}
+img {
+    border-radius: 10px;
+}
