@@ -11,14 +11,14 @@ body {
 }
 
 .main_wrapper{
-    width: 100%;
-    display: flex;
+    /* display: flex;
     flex-direction: column; 
     align-items: center; 
-    text-align: center; 
-    padding-left: 7rem;
+    text-align: center;  */
+    display: block;
+    padding-left: 6rem;
     padding-right: 6rem;
-    padding-top: 3.5rem !important;
+    padding-top: 2px;
     padding-bottom: 3.5rem !important;
 }
 h1 {
@@ -28,24 +28,26 @@ h1 {
     font-weight: 700;
     font-family: sans-serif,'Segoe UI', Tahoma, Geneva, Verdana;
     text-align: center;
-    padding: 3.5rem !important;
+    padding: 3.5rem;
     margin: 0;
+    padding-top: 0;
     display: block;
  }
  .main_wrapper p {
     width: 100%;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    font-size: 1rem;
+    font-size: 17px;
     color: rgb(74, 73, 73);
     font-weight: 400;
     padding-bottom: 1.5rem;
-    text-align: left !important;
+    text-align: justify;
     margin: 0;
 } 
 
 .main_wrapper img{
     width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 620px;
+    object-fit: cover;
 } 

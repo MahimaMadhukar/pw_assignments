@@ -1,12 +1,12 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: antiquewhite;
 }
 
 header {
     text-align: center;
-    background-color: gray;
-    color: white;
+    color: rgb(48, 45, 45);
     padding: 20px 0;
 }
 
@@ -14,6 +14,7 @@ header {
     font-family: "Oswald", sans-serif;
     font-size: 40px;
     margin: 0;
+    text-decoration: underline;
 }
 main{
     padding: 20px;
@@ -24,14 +25,18 @@ main{
 }
 
 img {
-    height: auto;
+    width: 500px;
+    border-radius: 10px;
     display: block;
     max-width: 100%;
 }
 
 .content {
+    text-align: justify;
+    padding: 50px;
+    padding-top: 10px;
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 26px;
     line-height: 1.5;
 }
 
