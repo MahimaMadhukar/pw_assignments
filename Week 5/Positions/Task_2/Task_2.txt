@@ -1,0 +1,13 @@
+Explain the difference between absolute and relative positioning.
+Relative Positioning:
+    1. Relative positioning is the default positioning method for HTML elements.
+    When you use position: relative;,changes the position of the element relative to the parent element and relative to itself and where it would usually be in the regular document flow of the page. This means that it's relative to its original position within the parent element.
+    2. You can adjust the position of a relatively positioned element using the top, right, bottom, and left properties.
+    3. Other elements in the document flow are not affected by the position of the relatively positioned element. In other words, the space reserved for the element remains in its original location, and surrounding elements are not shifted.
+    4. Relative positioning is often used when you want to make minor adjustments to the positioning of an element while keeping it within the normal document flow.
+
+Absolute Positioning:
+    1. Absolute positioning takes elements out of the regular document flow while also affecting the layout of the other elements on the page.
+    2. When an element is absolutely positioned, it's removed from the document flow, and its position is determined by specifying the values of top, right, bottom, and left properties in relation to its containing (non-static) ancestor.
+    3. Other elements in the document do not consider the space occupied by absolutely positioned elements, so they may overlap with other content.
+    4. Absolute positioning is often used for creating overlays, tooltips, pop-up menus, or elements that need to be precisely positioned within a specific container.

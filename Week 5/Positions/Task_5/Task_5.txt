@@ -1,0 +1,7 @@
+z-index 
+    z-index is a CSS property that controls the stacking order of elements on a web page. It's used to specify the "z-axis" position of an element, determining which elements appear in front of or behind others when they overlap in the same area of the webpage. Elements with a higher z-index value are placed in front of elements with a lower z-index value.
+
+In this code:
+    >We have two <div> elements with the classes "box red" and "box blue."
+    >Both boxes are absolutely positioned with a width and height of 100px.
+    >The "red" box has a z-index of 1, while the "blue" box has a z-index of 0.
