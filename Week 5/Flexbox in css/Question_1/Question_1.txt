@@ -1,0 +1,35 @@
+Describe the main differenec between the css flexbox layout and css grid layout model.when you would choose to use one over the other?
+1. Layout Model:
+Flexbox: 
+    Flexbox is a one-dimensional layout model,        meaning it is designed to handle layouts in a single direction (either horizontally or vertically). It's best suited for arranging items in a row or column.
+Grid: 
+    CSS Grid is a two-dimensional layout model that creates a grid of rows and columns. It allows you to place elements in both rows and columns, making it suitable for more complex layouts.
+
+2. Direction of Arrangement:
+Flexbox: 
+    It is ideal for creating layouts where items need to be arranged along a single axis, such as in a navigation bar or a list of items.
+Grid:
+    Grid is well-suited for creating layouts where items need to be placed both horizontally and vertically on a grid, like a magazine-style page or a complex form.
+
+3. Alignment:
+Flexbox: 
+    It excels at distributing space along the axis of its container and aligning items within that axis. This makes it great for centering items or distributing them evenly along a line.
+Grid:
+    Grid allows for precise control over the placement of items within rows and columns. You can align items both horizontally and vertically, making it versatile for aligning items in various ways.
+
+4. Number of Dimensions:
+Flexbox:
+    One-dimensional layout, dealing with either rows or columns.
+Grid:
+    Two-dimensional layout, handling both rows and columns simultaneously.
+
+When to Choose One Over the Other:
+Use Flexbox When:
+    You need to arrange items in a single direction, like a horizontal or vertical list.
+    You want to distribute items evenly along an axis.
+    You're dealing with a simpler, linear layout.
+
+Use Grid When:
+    You need to create complex layouts with rows and columns, such as grid-based designs.
+    You want precise control over the placement of items in both horizontal and vertical directions.
+    You're working on a layout that resembles a table or a card-based design

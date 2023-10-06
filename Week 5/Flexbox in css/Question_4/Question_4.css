@@ -1,0 +1,241 @@
+body,html{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color:#F4F2FD;
+    padding: 48px;
+}
+.pricing_section {
+    display: flex;
+    width: 962px;
+    padding: 32px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    background: #F4F2FD;
+}
+
+.pricing_card_one {
+    display: flex;
+    width: 262px;
+    height: 363px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+.card_detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;  
+}
+.card_header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.header_name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.frame_1 {
+    display: flex;
+    padding: 4px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.frame_1 span {
+    color: #202842;
+    font-family: Nunito;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+.frame_2 {
+    display: flex;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.frame_2 span{
+    color: #202842;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+}
+.prize {
+    display: flex;
+    padding: 0px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.prize  span {
+    color: #202842;
+    font-family: Sans Serif Collection;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px; /* 100% */
+}
+.frame_6{
+    display: inline-flex;
+    padding: 3px 4px;
+    align-items: flex-start;
+    gap: 10px;
+}
+.frame_6 img {
+    width: 22px;
+    height: 22px;
+}
+.frame_7 {
+    display: inline-flex;
+    padding: 8px 8px 4px 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.frame_7 span {
+    color: #202842;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+}
+.plan_details {
+    display: flex;
+    padding-left: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.subscribe_button{
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+    border-radius: 50px;
+    background: #202842;
+}
+
+.subscribe_button span{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 137.5% */
+}
+
+.pricing_card_one .group_1 .group_2 .group_3 .group_4 {
+    width: 95px;
+    height: 28px;
+}
+ 
+
+.pricing_card_three {
+    display: flex;
+    width: 262px;
+    height: 363px;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.pricing_card_three .group_1 .group_2 .group_3 .group_4 {
+    width: 95px;
+    height: 28px;
+}
+
+.pricing_card_two{
+    display: flex;
+    width: 262px;
+    height: 363px;
+    padding: 32px;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 32px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    background: #202842;
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+
+}
+.pricing_card_two .frame_1 span {
+    color:#FFF;
+}
+
+.pricing_card_two .frame_2 span{
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+}
+.pricing_card_two .prize  span {
+    color:#FFF;
+}
+
+.pricing_card_two .frame_7 span {
+    color: #FFF;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+}
+
+.pricing_card_two .subscribe_button{
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;  
+    border-radius: 50px;
+    background:#fff;
+}
+
+.pricing_card_two .subscribe_button span{
+    color:  #202842;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 137.5% */
+}
+.pricing_card_two .group_1 .group_2 .group_3 .group_4 {
+    width: 95px;
+    height: 28px;
+}

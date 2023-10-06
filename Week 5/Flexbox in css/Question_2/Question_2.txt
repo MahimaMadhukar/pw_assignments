@@ -1,0 +1,40 @@
+Explain the role of the  following key properties in the flexbox layout model
+1. Justify-content
+2. align-items
+3. gap
+4. flex-direction
+5. flex-wrap 
+
+1.Justify-content:
+    > This property controls the alignment of flex items along the main axis of the flex container. The main axis is determined by the flex-direction property. Common values include:
+    > flex-start: Items are aligned to the start of the main axis.
+    > flex-end: Items are aligned to the end of the main axis.
+    > center: Items are centered along the main axis.
+    > space-between: Items are evenly distributed with space between them.
+    > space-around: Items are evenly distributed with space around them.
+    > space-evenly: Items are evenly distributed with equal space around and between them.
+
+2. align-items:
+    > This property controls the alignment of flex items along the cross axis of the flex container. The cross axis is perpendicular to the main axis (determined by flex-direction). Common values include:
+    > flex-start: Items are aligned at the start of the cross axis.
+    > flex-end: Items are aligned at the end of the cross axis.
+    > center: Items are centered along the cross axis.
+    > baseline: Items are aligned based on their baseline (useful for text).
+    > stretch: Items are stretched to fill the cross-axis space.
+    
+3. gap:
+    > The gap property sets the spacing (margin) between flex items within a flex container. It can be specified separately for the main axis and the cross axis. It's a shorthand property for row-gap (for the cross axis) and column-gap (for the main axis) in a flex container.
+    > It provides a convenient way to create consistent spacing between items without having to set individual margins on each item.
+
+4. flex-direction:
+    > This property determines the direction in which flex items are laid out within the flex container. It defines the main axis and the direction in which items flow. Common values include:
+    > row: Items are laid out horizontally (left to right).
+    > row-reverse: Items are laid out horizontally in reverse (right to left).
+    > column: Items are laid out vertically (top to bottom).
+    > column-reverse: Items are laid out vertically in reverse (bottom to top).
+
+5. flex-wrap:
+    > The flex-wrap property determines whether flex items should wrap onto a new line when they don't fit within the flex container's dimensions along the main axis. Common values include:
+    > nowrap: Items stay on a single line (the default behavior).
+    > wrap: Items wrap onto new lines if necessary.
+    > wrap-reverse: Items wrap onto new lines in reverse order.
