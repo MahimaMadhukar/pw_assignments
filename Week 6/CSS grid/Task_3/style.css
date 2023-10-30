@@ -1,0 +1,16 @@
+.parent{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows:200px 200px;
+    gap: 4px;
+    justify-content: center;
+    grid-auto-rows: 100px;
+    grid-auto-columns: 50%;
+    text-align: center;
+    font-size: 50px;
+}
+
+.child{
+    background-color: aqua;
+    border: 2px solid ;
+}

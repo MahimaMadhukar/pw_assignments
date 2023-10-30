@@ -1,0 +1,42 @@
+
+.parent{
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    display: grid;
+    gap: 20px;
+    grid-template-columns:350px 350px 350px;
+    grid-template-rows: 350px 350px;
+    grid-template-areas: 'child1 child1 child2''child3 child4 child2';
+}
+
+.parent >div{
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+.child_1
+{
+    grid-area: child1;
+}
+
+.child_2
+{
+    grid-area: child2;
+}
+
+.child_3
+{
+    grid-area: child3;
+}
+
+.child_4
+{
+    grid-area: child4;
+}
+
+
