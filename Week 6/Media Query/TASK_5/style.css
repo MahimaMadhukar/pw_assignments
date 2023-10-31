@@ -1,0 +1,54 @@
+.parent{
+    display: flex;
+}
+body{
+    margin: 0;
+}
+.left-sidebar{
+    flex: 1;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+}
+
+.main-content{
+    flex:4;
+    display: flex;
+    flex-direction: column;
+}
+
+.child1{
+    padding: 20px;
+}
+
+.child4{
+    padding: 20px;
+}
+.child2{
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    background-color: rgb(47, 255, 210);
+}
+.child3{
+    padding: 20px;
+    text-align: center;
+    flex:1;
+    background-color: rgb(255, 165, 0);
+}
+.right-sidebar{
+    text-align: center;
+    flex: 1;
+    background-color: black;
+    color: aliceblue;
+    height: 100vh;
+}
+
+@media screen and (max-width:500px) {
+    .parent{
+        height: 100vh;
+        flex-direction: column;
+    }
+ 
+}
